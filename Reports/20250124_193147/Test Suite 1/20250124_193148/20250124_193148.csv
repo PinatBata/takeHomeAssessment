@@ -1,0 +1,22 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Test Suite 1,Firefox 119.0,,,2025-01-24 19:31:49,2025-01-24 19:32:09,19.828s,PASSED
+,,,,,,,
+Test Cases/TestAutomation,Firefox 119.0,,,2025-01-24 19:31:50,2025-01-24 19:32:09,19.709s,PASSED
+openBrowser(null),Firefox 119.0,,,2025-01-24 19:31:50,2025-01-24 19:31:52,2.687s,PASSED
+maximizeWindow(),Firefox 119.0,,,2025-01-24 19:31:52,2025-01-24 19:31:52,0.013s,PASSED
+"navigateToUrl(""https://www.pos.com.my/send/ratecalculator"")",Firefox 119.0,,,2025-01-24 19:31:52,2025-01-24 19:31:53,0.850s,PASSED
+"setText(findTestObject(""Object Repository/POS MALAYSIA - Rate Calculator Page/postcodeFrom_text""), ""35600"")",Firefox 119.0,,,2025-01-24 19:31:53,2025-01-24 19:31:56,2.179s,PASSED
+Thread.sleep(2000),Firefox 119.0,,,2025-01-24 19:31:56,2025-01-24 19:31:58,2.020s,PASSED
+"click(findTestObject(""Object Repository/POS MALAYSIA - Rate Calculator Page/countryTo_dropdown_text""))",Firefox 119.0,,,2025-01-24 19:31:58,2025-01-24 19:31:58,0.702s,PASSED
+"setText(findTestObject(""Object Repository/POS MALAYSIA - Rate Calculator Page/countryTo_dropdown_text""), ""india"")",Firefox 119.0,,,2025-01-24 19:31:58,2025-01-24 19:31:59,0.857s,PASSED
+Thread.sleep(2000),Firefox 119.0,,,2025-01-24 19:31:59,2025-01-24 19:32:01,2.013s,PASSED
+"click(findTestObject(""Object Repository/POS MALAYSIA - Rate Calculator Page/countryToIndia_value""))",Firefox 119.0,,,2025-01-24 19:32:01,2025-01-24 19:32:02,0.592s,PASSED
+"setText(findTestObject(""Object Repository/POS MALAYSIA - Rate Calculator Page/Weight_text""), ""1"")",Firefox 119.0,,,2025-01-24 19:32:02,2025-01-24 19:32:02,0.645s,PASSED
+"click(findTestObject(""Object Repository/POS MALAYSIA - Rate Calculator Page/Calculate_button""))",Firefox 119.0,,,2025-01-24 19:32:02,2025-01-24 19:32:03,0.676s,PASSED
+Thread.sleep(2000),Firefox 119.0,,,2025-01-24 19:32:03,2025-01-24 19:32:05,2.009s,PASSED
+"scrollToElement(findTestObject(""Object Repository/POS MALAYSIA - Rate Calculator Page/Your Quote_label""), 0)",Firefox 119.0,,,2025-01-24 19:32:05,2025-01-24 19:32:05,0.346s,PASSED
+Thread.sleep(2000),Firefox 119.0,,,2025-01-24 19:32:05,2025-01-24 19:32:07,2.009s,PASSED
+"verifyElementVisible(findTestObject(""Object Repository/POS MALAYSIA - Rate Calculator Page/EMS_label""))",Firefox 119.0,,,2025-01-24 19:32:07,2025-01-24 19:32:08,0.384s,PASSED
+"verifyElementVisible(findTestObject(""Object Repository/POS MALAYSIA - Rate Calculator Page/International Air Parcel_label""))",Firefox 119.0,,,2025-01-24 19:32:08,2025-01-24 19:32:08,0.334s,PASSED
+"verifyElementVisible(findTestObject(""Object Repository/POS MALAYSIA - Rate Calculator Page/International Surface Parcel_label""))",Firefox 119.0,,,2025-01-24 19:32:08,2025-01-24 19:32:08,0.362s,PASSED
+closeBrowser(),Firefox 119.0,,,2025-01-24 19:32:08,2025-01-24 19:32:09,0.851s,PASSED
